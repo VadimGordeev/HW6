@@ -373,7 +373,7 @@ ul.about_group_list {
 }
 .about_group_list li {
     padding-left: 33px;
-    background: url(./media/marker.svg) no-repeat 1px 3px;
+    background: url(./media/marker.svg) no-repeat 1px 4.25px;;
 }
 .popular {
     margin: 125px auto;
@@ -535,6 +535,7 @@ ul.popular_product_item_bar_info_star, ul.popular_product_item_info_star {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 .popular_product_item_bar_color1 {
     width: 14px;
